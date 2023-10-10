@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .bg-image{
+            background-image: url('/image/koyori.png');
+        }
+    </style>
+</head>
+<body>
+    background-image
+    <div class="mb-16 h-96 w-40 bg-image"></div>
+    bg-contain
+    <div class="mb-16 h-96 w-96 bg-contain bg-center bg-no-repeat" style="background-image: url('image/koyori.png');"></div>
+    imgタグ
+    <img class="mb-16 w-96 h-24" src="image/koyori.png">
+    <img src="image/koyori.png">
+
+    <img class="mb-16 w-96 h-24 object-cover" src="image/koyori.png">
+</body>
+</html>
