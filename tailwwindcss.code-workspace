@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../larabel/shopping"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "TailwindCSS"
+	}
+}
